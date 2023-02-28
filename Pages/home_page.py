@@ -235,12 +235,14 @@ class HomePage(BasePage, LogGen):
     def click_course_in_sidebar(self):
         """To click course option in sidebar"""
         log.info("Running home page 18th testcase")
-        log.info("Testing the click functionality of course in sidebar")
+        log.info("Testing the click functionality of course")
         self.do_click(self.Course)
         time.sleep(2)
 
     def do_search_course(self):
         """"To check search functionality in course"""
+        log.info("Running home page 19th testcase")
+        log.info("Testing the click functionality of search course")
         self.do_click(self.Course)
         self.do_send_keys(self.Search_Course, "python")
         self.do_click(self.Search_Button)
@@ -248,6 +250,8 @@ class HomePage(BasePage, LogGen):
 
     def do_search_cancel(self):
         """"To check cancel button functionality in search option"""
+        log.info("Running home page 20th testcase")
+        log.info("Testing the click functionality of cancel of search")
         self.do_click(self.Course)
         self.do_send_keys(self.Search_Course, "python")
         time.sleep(2)
@@ -256,30 +260,40 @@ class HomePage(BasePage, LogGen):
 
     def click_page_size(self):
         """"To click the page size"""
+        log.info("Running home page 21st testcase")
+        log.info("Testing the click functionality of page size")
         self.do_click(self.Course)
         self.do_click(self.Page_Size)
         time.sleep(2)
 
     def select_page_size(self):
         """"To select the page size"""
+        log.info("Running home page 22nd testcase")
+        log.info("Testing the click functionality of select page size")
         self.do_click(self.Course)
         self.page_select(self.Page_Size)
         time.sleep(2)
 
     def click_refresh_button(self):
         """"To refresh button functionality"""
+        log.info("Running home page 23rd testcase")
+        log.info("Testing the click functionality of click refresh button")
         self.do_click(self.Course)
         self.do_click(self.Refresh_Button)
         time.sleep(2)
 
     def click_course_name(self):
         """"To check click functionality of course name"""
+        log.info("Running home page 24th testcase")
+        log.info("Testing the click functionality of course name")
         self.do_click(self.Course)
         self.do_click(self.Course_Name)
         time.sleep(2)
 
     def course_name_edit(self):
         """"To edit the course name"""
+        log.info("Running home page 25th testcase")
+        log.info("Testing the edit course name functionality")
         self.do_click(self.Course)
         self.do_click(self.Course_Name)
         self.do_clear(self.Course_Name_Edit)
@@ -290,12 +304,16 @@ class HomePage(BasePage, LogGen):
 
     def click_add_question(self):
         """"To check click functionality of add question"""
+        log.info("Running home page 26th testcase")
+        log.info("Testing the click functionality of add question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
 
     def click_courses_in_add_question(self):
         """"To check click functionality courses in add question"""
+        log.info("Running home page 27th testcase")
+        log.info("Testing the click courses in add question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -304,6 +322,8 @@ class HomePage(BasePage, LogGen):
 
     def click_home_in_add_question(self):
         """"To check click functionality home button of add question"""
+        log.info("Running home page 28th testcase")
+        log.info("Testing the click functionality home button of add question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -312,6 +332,8 @@ class HomePage(BasePage, LogGen):
 
     def do_search_questions(self):
         """"To check search functionality of question"""
+        log.info("Running home page 29th testcase")
+        log.info("Testing the search functionality of question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -321,6 +343,8 @@ class HomePage(BasePage, LogGen):
 
     def do_cancel_questions(self):
         """"To cancel the click functionality of add question"""
+        log.info("Running home page 30th testcase")
+        log.info("Testing the click functionality of add question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -330,6 +354,8 @@ class HomePage(BasePage, LogGen):
 
     def click_page_size_in_question(self):
         """"To click the page size in question"""
+        log.info("Running home page 31st testcase")
+        log.info("Testing the click functionality of page size in question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -338,6 +364,8 @@ class HomePage(BasePage, LogGen):
 
     def select_page_size_in_question(self):
         """"To select the page size in question"""
+        log.info("Running home page 32nd testcase")
+        log.info("Testing to select the page size in question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -346,6 +374,8 @@ class HomePage(BasePage, LogGen):
 
     def click_refresh_button_in_question(self):
         """"To refresh button functionality in question"""
+        log.info("Running home page 33rd testcase")
+        log.info("Testing the click functionality of refresh button in question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -354,6 +384,8 @@ class HomePage(BasePage, LogGen):
 
     def click_question(self):
         """"To check click functionality of the question in add question"""
+        log.info("Running home page 34th testcase")
+        log.info("Testing the click functionality of the question in add question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -362,6 +394,8 @@ class HomePage(BasePage, LogGen):
 
     def click_activate_question(self):
         """"To check click functionality of the activate question"""
+        log.info("Running home page 35th testcase")
+        log.info("Testing to check click functionality of the activate question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -370,6 +404,8 @@ class HomePage(BasePage, LogGen):
 
     def confirm_activate_question_true(self):
         """"To click confirm option"""
+        log.info("Running home page 36th testcase")
+        log.info("Testing to click confirm option")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -380,6 +416,8 @@ class HomePage(BasePage, LogGen):
 
     def cancel_activate_question_confirmation(self):
         """"To click the close button"""
+        log.info("Running home page 37th testcase")
+        log.info("Testing to click the close button")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -390,6 +428,8 @@ class HomePage(BasePage, LogGen):
 
     def confirm_activate_question_false(self):
         """"To click status change in question activate"""
+        log.info("Running home page 38th testcase")
+        log.info("Testing to click status change in question activate")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -400,6 +440,8 @@ class HomePage(BasePage, LogGen):
 
     def click_delete_question(self):
         """"To check click functionality of delete question"""
+        log.info("Running home page 39th testcase")
+        log.info("Testing to check functionality of delete question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         time.sleep(2)
@@ -409,6 +451,8 @@ class HomePage(BasePage, LogGen):
 
     def confirm_delete_question_true(self):
         """"To confirm the delete question option"""
+        log.info("Running home page 40th testcase")
+        log.info("Testing to confirm the delete question option")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         self.page_select(self.Page_Size)
@@ -420,6 +464,8 @@ class HomePage(BasePage, LogGen):
 
     def cancel_delete_question_confirmation(self):
         """"To close to delete question option"""
+        log.info("Running home page 41st testcase")
+        log.info("Testing to close to delete question option")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         self.page_select(self.Page_Size)
@@ -431,6 +477,8 @@ class HomePage(BasePage, LogGen):
 
     def confirm_delete_question_false(self):
         """"To change the status to delete question"""
+        log.info("Running home page 42nd testcase")
+        log.info("Testing to change the status to delete question")
         self.do_click(self.Course)
         self.do_click(self.Add_Question)
         self.page_select(self.Page_Size)
@@ -442,12 +490,16 @@ class HomePage(BasePage, LogGen):
 
     def click_publish_course(self):
         """"To check the click functionality of publish course"""
+        log.info("Running home page 43rd testcase")
+        log.info("Testing to click functionality of publish course")
         self.do_click(self.Course)
         self.do_click(self.Publish_Course)
         time.sleep(2)
 
     def confirm_publish_course_true(self):
         """"To confirm to publish question option"""
+        log.info("Running home page 44th testcase")
+        log.info("Testing to confirm to publish question option")
         self.do_click(self.Course)
         self.do_click(self.Publish_Course)
         time.sleep(2)
@@ -456,6 +508,8 @@ class HomePage(BasePage, LogGen):
 
     def cancel_publish_course_confirmation(self):
         """"To cancel to publish question option"""
+        log.info("Running home page 45th testcase")
+        log.info("Testing to cancel to publish question option")
         self.do_click(self.Course)
         self.do_click(self.Publish_Course)
         time.sleep(2)
@@ -464,6 +518,8 @@ class HomePage(BasePage, LogGen):
 
     def confirm_publish_course_false(self):
         """"To change the status the publishing question"""
+        log.info("Running home page 46th testcase")
+        log.info("Testing to change the status the publishing question")
         self.do_click(self.Course)
         self.do_click(self.Publish_Course)
         time.sleep(2)
@@ -472,18 +528,24 @@ class HomePage(BasePage, LogGen):
 
     def click_page_link(self):
         """"To check the click functionality of page link"""
+        log.info("Running home page 47th testcase")
+        log.info("Testing to check the click functionality of page link")
         self.do_click(self.Course)
         self.do_click(self.Page_Link)
         time.sleep(2)
 
     def click_forward_page_link(self):
         """"To check the click functionality of forward page link"""
+        log.info("Running home page 48th testcase")
+        log.info("Testing to check functionality of forward page link")
         self.do_click(self.Course)
         self.do_click(self.Forward_Page_Link)
         time.sleep(2)
 
     def click_backward_page_link(self):
         """"To check the click functionality of backward page link"""
+        log.info("Running home page 49th testcase")
+        log.info("Testing to check the click functionality of backward page link")
         self.do_click(self.Course)
         self.do_click(self.Forward_Page_Link)
         time.sleep(2)
@@ -492,12 +554,16 @@ class HomePage(BasePage, LogGen):
 
     def click_last_page_link(self):
         """"To check the click functionality of last page link"""
+        log.info("Running home page 50th testcase")
+        log.info("Testing to check the click functionality of last page link")
         self.do_click(self.Course)
         self.do_click(self.Last_Page_Link)
         time.sleep(2)
 
     def click_first_page_link(self):
         """"To check the click functionality of first page link"""
+        log.info("Running home page 51st testcase")
+        log.info("Testing to check the click functionality of first page link")
         self.do_click(self.Course)
         self.do_click(self.Last_Page_Link)
         time.sleep(2)
@@ -506,12 +572,16 @@ class HomePage(BasePage, LogGen):
 
     def click_add_course(self):
         """"To check the click functionality add course in course"""
+        log.info("Running home page 52nd testcase")
+        log.info("Testing to check the click functionality add course in course")
         self.do_click(self.Course)
         self.do_click(self.Add_Course)
         time.sleep(2)
 
     def add_course(self):
         """"To add the course"""
+        log.info("Running home page 53rd testcase")
+        log.info("Testing to add the course")
         self.do_click(self.Course)
         self.do_click(self.Add_Course)
         time.sleep(2)
@@ -530,6 +600,8 @@ class HomePage(BasePage, LogGen):
 
     def click_cancel_button_in_add_course(self):
         """"To check the cancel button functionality of added course"""
+        log.info("Running home page 54th testcase")
+        log.info("Testing to check cancel button functionality of added course")
         self.do_click(self.Course)
         self.do_click(self.Add_Course)
         time.sleep(2)
@@ -542,11 +614,15 @@ class HomePage(BasePage, LogGen):
 
     def click_evaluations_in_sidebar(self):
         """"To check the click functionality of evaluations in sidebar"""
+        log.info("Running home page 55th testcase")
+        log.info("Testing to check the click functionality of evaluation in sidebar")
         self.do_click(self.Evaluation)
         time.sleep(2)
 
     def do_search_evaluation(self):
         """"To check the search functionality in evaluation"""
+        log.info("Running home page 56th testcase")
+        log.info("Testing to check the search functionality in evaluation")
         self.do_click(self.Evaluation)
         self.do_send_keys(self.Search_Evaluations, "Python")
         self.do_click(self.Search_Button)
@@ -554,6 +630,8 @@ class HomePage(BasePage, LogGen):
 
     def do_cancel_evaluation(self):
         """"To check the cancel button functionality in evaluation"""
+        log.info("Running home page 57th testcase")
+        log.info("Testing to check the cancel button functionality in evaluation")
         self.do_click(self.Evaluation)
         self.do_send_keys(self.Search_Evaluations, "Python")
         time.sleep(2)
@@ -562,29 +640,39 @@ class HomePage(BasePage, LogGen):
 
     def click_page_size_in_evaluation(self):
         """"To check click functionality of page size in evaluation"""
+        log.info("Running home page 58th testcase")
+        log.info("Testing to check the click functionality of page size in evaluation")
         self.do_click(self.Evaluation)
         self.do_click(self.Page_Size)
         time.sleep(2)
 
     def select_page_size_in_evaluation(self):
         """"To select page size in evaluation"""
+        log.info("Running home page 59th testcase")
+        log.info("Testing to select page size in evaluation")
         self.do_click(self.Evaluation)
         self.page_select(self.Page_Size)
         time.sleep(2)
 
     def click_refresh_button_in_evaluation(self):
         """"To check click functionality of refresh button in evaluation"""
+        log.info("Running home page 60th testcase")
+        log.info("Testing to check the click functionality of refresh button in evaluation")
         self.do_click(self.Evaluation)
         self.do_click(self.Refresh_Button)
         time.sleep(2)
 
     def click_evaluated_courses_in_sidebar(self):
         """"To check the click functionality of evaluated courses in sidebar"""
+        log.info("Running home page 61st testcase")
+        log.info("Testing to check the click functionality of evaluated courses in sidebar")
         self.do_click(self.Evaluated_Courses)
         time.sleep(2)
 
     def do_search_evaluated_courses(self):
         """"To check the search functionality in evaluated courses"""
+        log.info("Running home page 62nd testcase")
+        log.info("Testing to check the search functionality in evaluated courses")
         self.do_click(self.Evaluated_Courses)
         self.do_send_keys(self.Search_Evaluated_Courses, "Python")
         self.do_click(self.Search_Button)
@@ -592,6 +680,8 @@ class HomePage(BasePage, LogGen):
 
     def do_cancel_evaluated_courses(self):
         """"To check the cancel button functionality in evaluated courses"""
+        log.info("Running home page 63rd testcase")
+        log.info("Testing to check the cancel button functionality in evaluated courses")
         self.do_click(self.Evaluated_Courses)
         self.do_send_keys(self.Search_Evaluated_Courses, "Python")
         time.sleep(2)
@@ -600,18 +690,24 @@ class HomePage(BasePage, LogGen):
 
     def click_page_size_in_evaluated_courses(self):
         """"To check click functionality of page size in evaluated courses"""
+        log.info("Running home page 64th testcase")
+        log.info("Testing to check the click functionality of page size in evaluated courses")
         self.do_click(self.Evaluated_Courses)
         self.do_click(self.Page_Size)
         time.sleep(2)
 
     def select_page_size_in_evaluated_courses(self):
         """"To select page size in evaluated courses"""
+        log.info("Running home page 65th testcase")
+        log.info("Testing to select page size in evaluated courses")
         self.do_click(self.Evaluated_Courses)
         self.page_select(self.Page_Size)
         time.sleep(2)
 
     def click_refresh_button_in_evaluated_courses(self):
         """"To check click functionality of refresh button in evaluated courses"""
+        log.info("Running home page 66th testcase")
+        log.info("Testing to check the click functionality of refresh button in evaluated courses")
         self.do_click(self.Evaluated_Courses)
         self.do_click(self.Refresh_Button)
         time.sleep(2)
